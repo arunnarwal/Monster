@@ -1,0 +1,17 @@
+.CardContainer{
+    background-color: #95dada;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transform: translateZ(0);
+    transition: tranform 0.25s ease-out;
+}
+.CardContainer span{
+    font-size: 12px;
+}
+.CardContainer h6{
+    font-size: 14px;
+}
+.CardContainer:hover{
+transform:scale(1.05);
+
+}
